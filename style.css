@@ -50,7 +50,9 @@ color: #24bfbf;
          min-height: 150px;
          align-items: center;
      }
-    
+     header h1.logo{
+        margin-left: -10px;
+    }
  }
 
  @media only screen and (max-width: 450px){
