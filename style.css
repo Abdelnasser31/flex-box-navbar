@@ -43,3 +43,25 @@ color: #24bfbf;
     font-weight: lighter;
 }
 
+ /* Layout  */
+ @media only screen and (max-width: 700px){
+     header{
+         flex-direction: column;
+         min-height: 150px;
+         align-items: center;
+     }
+    
+ }
+
+ @media only screen and (max-width: 450px){
+     header{
+         min-height:350px;
+     }
+     header h1.logo{
+         margin-left: -10px;
+     }
+     header ul{
+         flex-direction: column;
+         align-items: center;
+     }
+ }
